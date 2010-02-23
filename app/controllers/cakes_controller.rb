@@ -1,7 +1,7 @@
 class CakesController < ApplicationController
 
-  def index
-    render(:text => "testing")
+  def new
+    @cake = Cake.new
   end
   
 end
