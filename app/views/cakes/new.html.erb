@@ -1,0 +1,11 @@
+
+<% form_for @cake do |f| %>
+	<p>
+		<%= f.label :topping %>
+		<%= f.text_field :topping %>
+	</p>
+	
+	<p>
+		<%= f.submit "Create Cake" %>
+	</p>
+<% end %>
